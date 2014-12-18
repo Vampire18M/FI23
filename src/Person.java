@@ -1,7 +1,7 @@
 
 public class Person {
 	private String name;
-	public int alter;
+	private int alter;
 	public String geburtsort;
 	
 	void geburtstag(){
@@ -12,7 +12,16 @@ public class Person {
 	void setName(String n){
 		name = n;
 	}
+	
 	String getName(){
 		return name;
+	}
+	
+	void setAlter(int n){
+		alter = n;
+	}
+	
+	int getAlter(){
+		return alter;
 	}
 }
